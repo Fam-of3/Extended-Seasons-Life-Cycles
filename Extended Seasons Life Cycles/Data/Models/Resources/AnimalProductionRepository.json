@@ -1,0 +1,148 @@
+{
+  "repository": [
+    {
+      "id": "milk_cow_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_milk"
+        }
+      ],
+      "productId": "milk",
+      "autoSpawn": false,
+      "harvestAnimationId": "Milking",
+      "productionDuration": 1900,
+      "harvestDuration": 20,
+      "amountToSpawn": 7,
+      "harvestXp": 50
+    },
+    {
+      "id": "milk_goat_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_milk"
+        }
+      ],
+      "productId": "milk",
+      "autoSpawn": false,
+      "harvestAnimationId": "Milking",
+      "productionDuration": 1600,
+      "harvestDuration": 15,
+      "amountToSpawn": 3,
+      "harvestXp": 50
+    },
+    {
+      "id": "milk_sheep_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_milk"
+        }
+      ],
+      "productId": "milk",
+      "autoSpawn": false,
+      "harvestAnimationId": "Milking",
+      "productionDuration": 1500,
+      "harvestDuration": 15,
+      "amountToSpawn": 2,
+      "harvestXp": 50
+    },
+    {
+      "id": "egg_chicken_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_egg_chicken"
+        }
+      ],
+      "productId": "egg_chicken",
+      "autoSpawn": true,
+      "harvestAnimationId": "",
+      "productionDuration": 1400,
+      "harvestDuration": 1,
+      "amountToSpawn": 1,
+      "harvestXp": 1
+    },
+    {
+      "id": "dung_small_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_dung"
+        }
+      ],
+      "productId": "dung",
+      "autoSpawn": true,
+      "harvestAnimationId": "",
+      "productionDuration": 4500,
+      "harvestDuration": 1,
+      "amountToSpawn": 1,
+      "harvestXp": 1
+    },
+    {
+      "id": "dung_med_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_dung"
+        }
+      ],
+      "productId": "dung",
+      "autoSpawn": true,
+      "harvestAnimationId": "",
+      "productionDuration": 1800,
+      "harvestDuration": 1,
+      "amountToSpawn": 1,
+      "harvestXp": 1
+    },
+    {
+      "id": "dung_large_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_dung"
+        }
+      ],
+      "productId": "dung",
+      "autoSpawn": true,
+      "harvestAnimationId": "",
+      "productionDuration": 1600,
+      "harvestDuration": 1,
+      "amountToSpawn": 5,
+      "harvestXp": 1
+    },
+    {
+      "id": "egg_phesent_production",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_egg_chicken"
+        }
+      ],
+      "productId": "egg_chicken",
+      "autoSpawn": true,
+      "harvestAnimationId": "",
+      "productionDuration": 3300,
+      "harvestDuration": 1,
+      "amountToSpawn": 1,
+      "harvestXp": 1
+    },
+    {
+      "id": "wool_production",
+      "productId": "wool_cloth",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "resource_name_wool_cloth"
+        }
+      ],
+      "autoSpawn": false,
+      "harvestAnimationId": "Shearing",
+      "productionDuration": 5000,
+      "harvestDuration": 45,
+      "amountToSpawn": 10,
+      "harvestXp": 120
+    }
+  ]
+}

@@ -1,0 +1,2937 @@
+{
+  "repository": [
+    {
+      "id": "game_event_season_start_spring",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_spring",
+              "description": "game_event_description_season_spring",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_spring",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                7
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_spring",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_spring2",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_spring2",
+              "description": "game_event_description_season_spring",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_spring",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                7
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_spring2",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 24
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_summer",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_summer",
+              "description": "game_event_description_season_summer",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_summer",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                8
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_summer",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_summer2",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_summer2",
+              "description": "game_event_description_season_summer",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_summer",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                8
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_summer2",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_autumn",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_autumn",
+              "description": "game_event_description_season_autumn",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_autumn",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                9
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_autumn",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_autumn2",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_autumn2",
+              "description": "game_event_description_season_autumn",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_autumn",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                9
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_autumn2",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_winter",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_winter",
+              "description": "game_event_description_season_winter",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_winter",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                10
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_winter",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_season_start_winter2",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_season_winter2",
+              "description": "game_event_description_season_winter",
+              "type": "game_event_type_season_start"
+            }
+          ],
+          "imagePath": "event_season_winter",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                10
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_season_winter2",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_crop_blight",
+      "className": "CropBlightEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_blight_01",
+              "description": "event_blight_01",
+              "type": "game_event_type_enviroment"
+            }
+          ],
+          "imagePath": "event_blight",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "[PH] Jump to Location"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "news_name_blight",
+            "tooltipKey": "news_info_blight",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_heat_wave",
+      "className": "AlterWeatherEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_heat_wave_01",
+              "description": "event_heat_wave_01",
+              "type": "game_event_type_enviroment"
+            }
+          ],
+          "imagePath": "event_heatwave",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "event_name_heat_wave_01",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ],
+      "effectors": [
+        "HeatWaveMaxSun"
+      ],
+      "durationHours": {
+        "min": "24.0",
+        "max": "48.0"
+      },
+      "animationLayer": "heatWaveAnim",
+      "temperatureRange": {
+        "min": "29",
+        "max": "29"
+      },
+      "temperatureRangeNight": {
+        "min": "25",
+        "max": "25"
+      },
+      "startFireChance": 1,
+      "sunStrengthMultiplier": 1.5,
+      "messageEnd": "game_event_heat_wave_end",
+      "weatherTextKey": "weather_heat_wave",
+      "warningMessage": {
+        "textKey": "event_name_heat_wave_01",
+        "tooltipKey": "event_heat_wave_warning",
+        "iconPath": "Idle"
+      }
+    },
+    {
+      "id": "game_event_cold_snap",
+      "className": "AlterWeatherEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_cold_01",
+              "description": "event_cold_01",
+              "type": "game_event_type_enviroment"
+            }
+          ],
+          "imagePath": "event_cold_snap",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "event_name_cold_01",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ],
+      "durationHours": {
+        "min": "18.0",
+        "max": "48.0"
+      },
+      "animationLayer": "coldSnapAnim",
+      "temperatureRange": {
+        "min": "-13.0",
+        "max": "-15.0"
+      },
+      "temperatureRangeNight": {
+        "min": "-14.0",
+        "max": "-15.0"
+      },
+      "messageEnd": "game_event_cold_snap_end",
+      "weatherTextKey": "weather_cold_snap",
+      "warningMessage": {
+        "textKey": "event_name_cold_01",
+        "tooltipKey": "event_cold_warning",
+        "iconPath": "Idle"
+      }
+    },
+    {
+      "id": "game_event_hailstorm",
+      "className": "HailstormEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_hail_01",
+              "description": "event_hail_01",
+              "type": "game_event_type_enviroment"
+            }
+          ],
+          "imagePath": "event_hailstorm",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "event_name_hail_01",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ],
+      "durationHours": {
+        "min": "3",
+        "max": "5"
+      },
+      "damageHitPoints": {
+        "min": 10.0,
+        "max": 40.0
+      },
+      "animationLayer": "hailstormAnim",
+      "percentage": {
+        "min": 20.0,
+        "max": 30.0
+      },
+      "temperatureAdditive": true,
+      "temperatureRange": {
+        "min": "-5.0",
+        "max": "-7.0"
+      },
+      "messageEnd": "game_event_hailstorm_end",
+      "weatherTextKey": "weather_hailstorm",
+      "warningMessage": {
+        "textKey": "event_name_hail_01",
+        "tooltipKey": "event_hail_warning",
+        "iconPath": "Idle"
+      }
+    },
+    {
+      "id": "game_event_thunderstorm",
+      "className": "ThunderstormEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_thunderstorm_01",
+              "description": "event_thunderstorm_01",
+              "type": "game_event_type_enviroment"
+            }
+          ],
+          "imagePath": "event_thunderstorm",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "event_name_thunderstorm_01",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ],
+      "effectors": [
+        "VisibilityRain",
+        "WashoutRainPerkEffector"
+      ],
+      "durationHours": {
+        "min": "3.0",
+        "max": "5.0"
+      },
+      "prefab": "lightning_strike",
+      "count": {
+        "min": "3",
+        "max": "5"
+      },
+      "lightningStrikeChance": [
+        {
+          "key": "RandomPosition",
+          "value": 65.0
+        },
+        {
+          "key": "Animal",
+          "value": 3.0
+        },
+        {
+          "key": "Plant",
+          "value": 35.0
+        },
+        {
+          "key": "Worker",
+          "value": 1.0
+        },
+        {
+          "key": "Enemy",
+          "value": 5.0
+        },
+        {
+          "key": "Building",
+          "value": 10.0
+        },
+        {
+          "key": "ResourcePile",
+          "value": 5.0
+        },
+        {
+          "key": "Trebuchet",
+          "value": 10.0
+        }
+      ],
+      "groundDamageHitPoints": {
+        "min": 30.0,
+        "max": 40.0
+      },
+      "damageHitPoints": {
+        "min": 40.0,
+        "max": 60.0
+      },
+      "creatureDamageHitPoints": {
+        "min": 10.0,
+        "max": 20.0
+      },
+      "damageRange": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "animationLayer": "heavyRainAnim",
+      "temperatureAdditive": true,
+      "temperatureRange": {
+        "min": "-5.0",
+        "max": "-10.0"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsLightning"
+      ],
+      "messageEnd": "game_event_thunderstorm_end",
+      "enableKeywordOnStart": "_GLOBAL_WEATHER_RAIN_ON",
+      "weatherTextKey": "weather_thunderstorm",
+      "warningMessage": {
+        "textKey": "event_name_thunderstorm_01",
+        "tooltipKey": "",
+        "iconPath": "Idle"
+      }
+    },
+    {
+      "id": "game_event_influence_20",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_name_influence_20",
+              "description": "game_event_description_influence_20",
+              "type": "game_event_type_influence"
+            }
+          ],
+          "imagePath": "event_influence",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_influence",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_influence_100",
+      "className": "InfoEvent",
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_name_influence_100",
+              "description": "game_event_description_influence_100",
+              "type": "game_event_type_influence"
+            }
+          ],
+          "imagePath": "event_influence",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_influence",
+            "tooltipKey": "",
+            "iconPath": "NewsGray",
+            "defaultDurationHours": 48
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_new_worker",
+      "className": "NewWorkerEvent",
+      "equipment": [
+        "new_worker_simple"
+      ],
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_new_worker_defoult_01",
+              "description": "event_new_worker_defoult_01",
+              "type": "game_event_type_new_worker"
+            }
+          ],
+          "imagePath": "event_new_worker",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_welcome_new_worker"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_decline_new_worker"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                1
+              ]
+            },
+            {
+              "items": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_new_worker_hungry",
+      "className": "NewWorkerEvent",
+      "equipment": [
+        "new_worker_simple"
+      ],
+      "stats": [
+        {
+          "stat": "Hunger",
+          "valueRange": {
+            "min": -30,
+            "max": -10
+          }
+        },
+        {
+          "stat": "Mood",
+          "valueRange": {
+            "min": 40,
+            "max": 50
+          }
+        },
+        {
+          "stat": "Sleep",
+          "valueRange": {
+            "min": 25,
+            "max": 50
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_new_worker_starving_01",
+              "description": "event_new_worker_starving_01",
+              "type": "game_event_type_new_worker"
+            }
+          ],
+          "imagePath": "event_new_worker",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_welcome_new_worker"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_decline_new_worker"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                1
+              ]
+            },
+            {
+              "items": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_new_worker_wounded",
+      "className": "NewWorkerEvent",
+      "equipment": [
+        "new_worker_with_weapons"
+      ],
+      "wounds": {
+        "list": [
+          "deep_cut_arm",
+          "deep_cut_leg",
+          "deep_cut_chest"
+        ],
+        "minCount": 1,
+        "maxCount": 2
+      },
+      "stats": [
+        {
+          "stat": "Hunger",
+          "valueRange": {
+            "min": 20,
+            "max": 40
+          }
+        },
+        {
+          "stat": "Mood",
+          "valueRange": {
+            "min": 40,
+            "max": 50
+          }
+        },
+        {
+          "stat": "Sleep",
+          "valueRange": {
+            "min": 25,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Blood",
+          "valueRange": {
+            "min": 50,
+            "max": 100
+          }
+        },
+        {
+          "stat": "Health",
+          "valueRange": {
+            "min": 20,
+            "max": 50
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_new_worker_wounded_01",
+              "description": "event_new_worker_wounded_01",
+              "type": "game_event_type_new_worker"
+            }
+          ],
+          "imagePath": "event_new_worker",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_welcome_new_worker"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_decline_new_worker"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                1
+              ]
+            },
+            {
+              "items": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_new_worker_wounded_02",
+      "className": "NewWorkerEvent",
+      "equipment": [
+        "new_worker_with_axe"
+      ],
+      "wounds": {
+        "list": [
+          "deep_cut_arm"
+        ]
+      },
+      "stats": [
+        {
+          "stat": "Hunger",
+          "valueRange": {
+            "min": 30,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Mood",
+          "valueRange": {
+            "min": 35,
+            "max": 55
+          }
+        },
+        {
+          "stat": "Sleep",
+          "valueRange": {
+            "min": 25,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Blood",
+          "valueRange": {
+            "min": 50,
+            "max": 90
+          }
+        },
+        {
+          "stat": "Health",
+          "valueRange": {
+            "min": 60,
+            "max": 80
+          }
+        },
+        {
+          "stat": "Consciousness",
+          "valueRange": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        {
+          "stat": "Pain",
+          "valueRange": {
+            "min": 70,
+            "max": 90
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_new_worker_wounded_02",
+              "description": "event_new_worker_wounded_02",
+              "type": "game_event_type_new_worker"
+            }
+          ],
+          "imagePath": "event_new_worker",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_welcome_new_worker"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_decline_new_worker"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                1
+              ]
+            },
+            {
+              "items": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_new_worker_sick",
+      "className": "NewWorkerEvent",
+      "equipment": [
+        "new_worker_simple"
+      ],
+      "stats": [
+        {
+          "stat": "Hunger",
+          "valueRange": {
+            "min": 30,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Mood",
+          "valueRange": {
+            "min": 40,
+            "max": 50
+          }
+        },
+        {
+          "stat": "Sleep",
+          "valueRange": {
+            "min": 25,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Blood",
+          "valueRange": {
+            "min": 50,
+            "max": 90
+          }
+        },
+        {
+          "stat": "Health",
+          "valueRange": {
+            "min": 15,
+            "max": 25
+          }
+        },
+        {
+          "stat": "Consciousness",
+          "valueRange": {
+            "min": 30,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Pain",
+          "valueRange": {
+            "min": 80,
+            "max": 100
+          }
+        }
+      ],
+      "dialogs": [
+        {
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_new_worker_sick_01",
+              "description": "event_new_worker_sick_01",
+              "type": "game_event_type_new_worker"
+            }
+          ],
+          "imagePath": "event_new_worker",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_welcome_new_worker"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_decline_new_worker"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                1
+              ]
+            },
+            {
+              "items": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_runaway_new",
+      "className": "RunawayEvent",
+      "friendliness": [
+        "Hostile",
+        "PermanentlyHostile",
+        "Neutral",
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "equipment": [
+        "new_worker_prisoner"
+      ],
+      "interpolatedValues": [
+        {
+          "name": "valueDemandedBasedOnWealth",
+          "threshold": 500,
+          "list": [
+            {
+              "key": 500,
+              "value": 70
+            },
+            {
+              "key": 2000,
+              "value": 170
+            },
+            {
+              "key": 8000,
+              "value": 320
+            },
+            {
+              "key": 10000,
+              "value": 450
+            },
+            {
+              "key": 20000,
+              "value": 750
+            },
+            {
+              "key": 50000,
+              "value": 1200
+            }
+          ]
+        }
+      ],
+      "wounds": {
+        "list": [
+          "shallow_cut_arm",
+          "shallow_cut_chest",
+          "bruised_chest",
+          "mild_concussion"
+        ],
+        "minCount": 1,
+        "maxCount": 2
+      },
+      "stats": [
+        {
+          "stat": "Hunger",
+          "valueRange": {
+            "min": 20,
+            "max": 40
+          }
+        },
+        {
+          "stat": "Mood",
+          "valueRange": {
+            "min": 40,
+            "max": 50
+          }
+        },
+        {
+          "stat": "Sleep",
+          "valueRange": {
+            "min": 25,
+            "max": 70
+          }
+        },
+        {
+          "stat": "Blood",
+          "valueRange": {
+            "min": 50,
+            "max": 100
+          }
+        },
+        {
+          "stat": "Health",
+          "valueRange": {
+            "min": 60,
+            "max": 100
+          }
+        }
+      ],
+      "durationHours": {
+        "min": "20",
+        "max": "28"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_runaway_general",
+              "description": "event_runaway_<faction>",
+              "type": "game_event_type_new_worker"
+            }
+          ],
+          "imagePath": "event_runaway",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_help_runaway"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_decline_help_runaway"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                1,
+                2
+              ]
+            },
+            {
+              "items": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "negotiator_arrived_news",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_claim_runaway_general",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_jump_to_location"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "news_name_runaway",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        },
+        {
+          "id": "decline_neutral",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_raid_general_decline_neutral",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "after_trade_attackers_satisfied",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_runaway_trade_successful_<faction>",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "decline_hostile",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_raid_general_decline_hostile",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_prepare_for_battle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attackers_leave_worker_dead",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_raid_general_allready_gone",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_04"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "worker_given_up",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_runaway_05_b_accept",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_04"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "villager_cant_leave_attack",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_runaway_villager_cant_leave_02",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_prepare_for_battle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attackers_arrive_worker_dead",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_claim_runaway_<faction>",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_worker_allready_gone"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "won",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "raid_won_name",
+              "description": "raid_outcome",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "raid_victory",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lost",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "raid_lost_name",
+              "description": "raid_outcome",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "raid_defeat",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "neutral_decline",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_raid_general_decline_neutral",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_raid_new",
+      "className": "RaidEvent",
+      "friendliness": [
+        "Hostile",
+        "PermanentlyHostile"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_raid_general",
+              "description": "event_raid_<faction>",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_prepare_for_battle"
+                }
+              ]
+            }
+          ],
+          "optionEffects": [
+            {
+              "items": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "won",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "raid_won_name",
+              "description": "raid_outcome",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "raid_victory",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lost",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "raid_lost_name",
+              "description": "raid_outcome",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "raid_defeat",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_wolf_raid",
+      "className": "AnimalGroupEvent",
+      "animalType": "WildAggressive",
+      "messageEnd": "event_animal_raid_end",
+      "messageEndAlternative": "event_animal_raid_end_all_animals_dead",
+      "useRaidPoints": true,
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_raid_animal_01",
+              "description": "event_raid_animal_01",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "event_wolves",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "[PH] Jump to Location"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "event_name_raid_animal_01",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ],
+      "category": "wolf",
+      "durationHours": {
+        "min": "8.0",
+        "max": "10.0"
+      }
+    },
+    {
+      "id": "game_event_shakedown",
+      "className": "ShakedownEvent",
+      "friendliness": [
+        "Neutral",
+        "Friendly",
+        "Hostile",
+        "PermanentlyHostile"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "interpolatedValues": [
+        {
+          "name": "valueDemandedBasedOnWealth",
+          "threshold": 1000,
+          "list": [
+            {
+              "key": 1000,
+              "value": 50
+            },
+            {
+              "key": 3000,
+              "value": 110
+            },
+            {
+              "key": 18000,
+              "value": 400
+            },
+            {
+              "key": 30000,
+              "value": 1100
+            }
+          ]
+        }
+      ],
+      "durationHours": {
+        "min": "24.0",
+        "max": "29.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_shakedown_general",
+              "description": "event_shakedown_negotiator_arrival",
+              "type": "game_event_type_shakedown"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            },
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_jump_to_location"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "news_name_shakedown",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        },
+        {
+          "id": "raid_avoided",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_shakedown_general",
+              "description": "event_shakedown_demands_satisfied",
+              "type": "game_event_type_shakedown"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "raid_incoming",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_shakedown_general",
+              "description": "event_raid_general_decline_hostile",
+              "type": "game_event_type_shakedown"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "event_answer_prepare_for_battle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "decline_neutral",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_claim_runaway_general",
+              "description": "event_raid_general_decline_neutral",
+              "type": "event_name_runaway_name"
+            }
+          ],
+          "imagePath": "event_raid_<faction>",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "raid_victory",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "raid_won_name",
+              "description": "raid_outcome",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "raid_victory",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "raid_defeat",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "raid_lost_name",
+              "description": "raid_outcome",
+              "type": "game_event_type_raid"
+            }
+          ],
+          "imagePath": "raid_defeat",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_all_dead",
+      "className": "GameOverEvent",
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "game_event_name_all_dead",
+              "description": "game_event_info_all_dead",
+              "type": "game_event_type_end"
+            }
+          ],
+          "imagePath": "raid_defeat",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_event_general_goods_trader_small",
+      "className": "TraderEvent",
+      "category": "general_goods_trader_small",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "25.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_merchant_02",
+              "description": "event_merchant_02",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_general_goods_trader_normal",
+      "className": "TraderEvent",
+      "category": "general_goods_trader_normal",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "25.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_merchant_02",
+              "description": "event_merchant_02",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_general_goods_trader_large",
+      "className": "TraderEvent",
+      "category": "general_goods_trader_large",
+      "friendliness": [
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "25.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_merchant_02",
+              "description": "event_merchant_02",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_trader_weapons",
+      "className": "TraderEvent",
+      "category": "weapons_trader",
+      "friendliness": [
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "25.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_merchant_02",
+              "description": "event_weapons_merchant",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_trader_rare",
+      "className": "TraderEvent",
+      "category": "rare_goods_trader",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "25.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_merchant_02",
+              "description": "event_rare_goods_merchant",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_trader_visitor",
+      "className": "TraderEvent",
+      "category": "trader_visitor",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "non_partisan_nomads"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "25.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_visitor_name",
+              "description": "event_visitor",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_prisoner_merchant",
+      "resetFactionFriendliness": true,
+      "className": "TraderEvent",
+      "category": "trader_prisoners",
+      "friendliness": [
+        "Hostile",
+        "Neutral",
+        "Friendly"
+      ],
+      "excludeFactions": [
+        "church_of_third_coming",
+        "ancrene_disciples",
+        "faithful_sons_of_england",
+        "band_of_the she_wolf",
+        "looters",
+        "river_bandits",
+        "mountain_bandits",
+        "forest_bandits",
+        "ravagers",
+        "progeny_of_the_plague",
+        "beirdd_cymraeg",
+        "circle_of_avalon",
+        "heresy_of_the_rose",
+        "kingdom_of_york",
+        "society_of_fellows",
+        "philosophers_of_the_natural_order"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "18.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_merchant_02",
+              "description": "event_prisoner_merchant",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_boar_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 10,
+              "value": 1
+            },
+            {
+              "key": 15,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "boar",
+      "count": {
+        "min": "3",
+        "max": "5"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_dog_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 5,
+              "value": 1
+            },
+            {
+              "key": 7,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Domestic",
+      "className": "AnimalGroupEvent",
+      "category": "dog",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_cat_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 4,
+              "value": 1
+            },
+            {
+              "key": 6,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Domestic",
+      "className": "AnimalGroupEvent",
+      "category": "cat",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_deer_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 15,
+              "value": 1
+            },
+            {
+              "key": 25,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "deer",
+      "count": {
+        "min": "5",
+        "max": "12"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "20.0",
+        "max": "24.0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_goat_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 10,
+              "value": 1
+            },
+            {
+              "key": 15,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "goat",
+      "count": {
+        "min": "1",
+        "max": "2"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_cow_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 8,
+              "value": 1
+            },
+            {
+              "key": 12,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "cow",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_sheep_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 10,
+              "value": 1
+            },
+            {
+              "key": 15,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "sheep",
+      "count": {
+        "min": "1",
+        "max": "2"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_sheep_domestic_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 5,
+              "value": 1
+            },
+            {
+              "key": 7,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Domestic",
+      "className": "AnimalGroupEvent",
+      "category": "sheep",
+      "count": {
+        "min": "1",
+        "max": "2"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_chicken_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 10,
+              "value": 1
+            },
+            {
+              "key": 12,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "chicken",
+      "count": {
+        "min": "2",
+        "max": "3"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_pheasant_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 8,
+              "value": 1
+            },
+            {
+              "key": 10,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "pheasant",
+      "count": {
+        "min": "2",
+        "max": "3"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_cow_domestic_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 3,
+              "value": 1
+            },
+            {
+              "key": 5,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Domestic",
+      "className": "AnimalGroupEvent",
+      "category": "cow",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_fox_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 5,
+              "value": 1
+            },
+            {
+              "key": 7,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "fox",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_polecat_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 8,
+              "value": 1
+            },
+            {
+              "key": 12,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "polecat",
+      "count": {
+        "min": "2",
+        "max": "3"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "6",
+        "max": "18"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_single_polecat_event",
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 5,
+              "value": 1
+            },
+            {
+              "key": 7,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "polecat",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "0",
+        "max": "0"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_bear_event",
+      "nonBlocking": true,
+      "interpolatedValues": [
+        {
+          "name": "animalCountMultipliers",
+          "threshold": -1,
+          "list": [
+            {
+              "key": 0,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 1
+            },
+            {
+              "key": 3,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "animalType": "Wild",
+      "className": "AnimalGroupEvent",
+      "category": "bear",
+      "count": {
+        "min": "1",
+        "max": "1"
+      },
+      "useRaidPoints": false,
+      "genderDistribution": 0.5,
+      "durationHours": {
+        "min": "500",
+        "max": "550"
+      },
+      "messageStart": "warning_message_info_group_of_animals_start",
+      "messageEnd": "warning_message_info_group_of_animals_leave"
+    },
+    {
+      "id": "game_event_bard_visitor",
+      "className": "BardVisitorEvent",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "20.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_role_visitor",
+              "description": "event_role_visitor",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_priest_visitor",
+      "className": "PriestVisitorEvent",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "20.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_role_visitor",
+              "description": "event_role_visitor",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    },
+    {
+      "id": "game_event_shaman_visitor",
+      "className": "ShamanVisitorEvent",
+      "friendliness": [
+        "Neutral",
+        "Friendly"
+      ],
+      "durationHours": {
+        "min": "16.0",
+        "max": "20.0"
+      },
+      "dialogs": [
+        {
+          "id": "start",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "event_name_role_visitor",
+              "description": "event_role_visitor",
+              "type": "game_event_type_visitor"
+            }
+          ],
+          "imagePath": "event_merchant",
+          "options": [
+            {
+              "locKeys": [
+                {
+                  "languageName": "English",
+                  "name": "general_ok"
+                }
+              ]
+            }
+          ],
+          "newsMessage": {
+            "messageKey": "game_event_type_visitor",
+            "tooltipKey": "",
+            "iconPath": "NewsGray"
+          },
+          "showCloseButton": true
+        }
+      ]
+    }
+  ]
+}

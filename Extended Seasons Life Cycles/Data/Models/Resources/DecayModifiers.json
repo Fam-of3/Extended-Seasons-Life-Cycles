@@ -1,0 +1,1275 @@
+{
+  "repository": [
+    {
+      "id": "default",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 0.6,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "raw_food_normal_decay",
+      "temperatureCoefficients": [
+        0,
+        0.05,
+        0.09,
+        0.14,
+        1,
+        1.5,
+        1.8,
+        2,
+        20,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "dry_food_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "raw_food_very_low_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.03,
+        0.09,
+        0.2,
+        0.5,
+        0.7,
+        1,
+        15,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "raw_food_low_decay",
+      "temperatureCoefficients": [
+        0,
+        0.02,
+        0.05,
+        0.2,
+        0.9,
+        1.2,
+        1.5,
+        2,
+        20,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "raw_food_high_decay",
+      "temperatureCoefficients": [
+        0,
+        0.1,
+        0.16,
+        0.2,
+        1.2,
+        1.8,
+        2.2,
+        5,
+        25,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "fish_food_high_decay",
+      "temperatureCoefficients": [
+        0,
+        0.1,
+        0.16,
+        0.2,
+        1.2,
+        1.8,
+        2.2,
+        5,
+        25,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "packaged_food_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1,
+        10,
+        300
+      ],
+      "groundCoefficient": 0.2,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "barrel_food_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1,
+        10,
+        300
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.8,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "oil_pot_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        20,
+        50,
+        1000
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.8,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "smoked_meat_decompose",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.03,
+        0.09,
+        0.2,
+        0.5,
+        0.7,
+        1,
+        15,
+        300
+      ],
+      "groundCoefficient": 0.05,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "smoked_meat_rot",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1,
+        10,
+        300
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.8,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "meal_normal_decay",
+      "temperatureCoefficients": [
+        0,
+        0.05,
+        0.09,
+        0.14,
+        1,
+        1.5,
+        1.8,
+        2,
+        20,
+        300
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 3,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "meal_high_decay",
+      "temperatureCoefficients": [
+        0,
+        0.1,
+        0.16,
+        0.2,
+        1.2,
+        1.8,
+        2.2,
+        5,
+        25,
+        300
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 3,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "resources_normal_decay",
+      "temperatureCoefficients": [
+        0,
+        0.05,
+        0.09,
+        0.14,
+        1,
+        1.5,
+        1.8,
+        2,
+        20,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "resources_low_decay",
+      "temperatureCoefficients": [
+        0,
+        0.02,
+        0.05,
+        0.2,
+        0.9,
+        1.2,
+        1.5,
+        2,
+        20,
+        300
+      ],
+      "groundCoefficient": 0.2,
+      "waterCoefficient": 0.8,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "barrel_drink_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "wine_rot",
+      "temperatureCoefficients": [
+        0,
+        0.1,
+        0.16,
+        0.2,
+        1.2,
+        1.8,
+        2.2,
+        5,
+        25,
+        300
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "textile_normal_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "salt_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.8,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "wood_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.2,
+      "waterCoefficient": 1,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "id": "ice_decay",
+      "temperatureCoefficients": [
+        0,
+        0.18,
+        0.25,
+        0.5,
+        3,
+        6,
+        10,
+        50,
+        200,
+        2000
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.2,
+          0,
+          0.2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "book_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 4,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "bones_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.2,
+      "waterCoefficient": 0.3,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "trophy_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ash_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 2,
+      "waterCoefficient": 10,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          5,
+          3,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "mechanical_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.05,
+      "waterCoefficient": 0.1,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      }
+    },
+    {
+      "id": "seeds_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.03,
+        0.09,
+        0.2,
+        0.5,
+        0.7,
+        1,
+        15,
+        300
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "carcass_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.03,
+        0.09,
+        0.2,
+        0.5,
+        0.7,
+        1,
+        15,
+        300
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 2,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "carcass_rot",
+      "temperatureCoefficients": [
+        0,
+        0.05,
+        0.09,
+        0.14,
+        1,
+        1.5,
+        1.8,
+        2,
+        20,
+        300
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 2,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "default_equipment_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0.5,
+      "waterCoefficient": 1.5,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "clothing_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 2,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "structure_pile_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        1
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0.3,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      }
+    },
+    {
+      "id": "fermneting_wine",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.3,
+        0.8,
+        2.5,
+        2,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "aging_wine",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.2,
+        0.4,
+        0.2,
+        0.05,
+        0,
+        0,
+        0,
+        0
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "feermnting_alcohol",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0.2,
+        0.5,
+        2,
+        1.4,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "fermenting_cheese",
+      "temperatureCoefficients": [
+        0,
+        0,
+        1,
+        2,
+        5,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "vinegar_production",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        3,
+        4.5,
+        4.5,
+        4.5,
+        4.5
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 0,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "curgling_milk_roting",
+      "temperatureCoefficients": [
+        0,
+        0.02,
+        0.1,
+        0.2,
+        1,
+        3,
+        5,
+        6,
+        10,
+        20
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 4,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "honey_decay",
+      "temperatureCoefficients": [
+        0,
+        0,
+        0,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1,
+        10,
+        300
+      ],
+      "groundCoefficient": 0,
+      "waterCoefficient": 4,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "rot_decay",
+      "temperatureCoefficients": [
+        0,
+        0.1,
+        0.16,
+        0.2,
+        1.2,
+        1.8,
+        2.2,
+        5,
+        25,
+        300
+      ],
+      "groundCoefficient": 1,
+      "waterCoefficient": 6,
+      "weatherModifiers": {
+        "keys": [
+          "rain",
+          "snow",
+          "game_event_thunderstorm",
+          "game_event_hailstorm"
+        ],
+        "values": [
+          5,
+          3,
+          5,
+          5
+        ]
+      }
+    }
+  ]
+}

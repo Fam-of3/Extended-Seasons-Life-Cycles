@@ -1,0 +1,370 @@
+{
+    "daysInSeason": 13,
+    "hoursInDay": 24,
+    "minutesInHour": 48,
+    "statsUpdatePerHour": 4,
+    "goalsUpdatePerHour": 4,
+	"dayEffectors": ["SunSeekerDayPerkEffector"],
+	"dayEffectorsEnd": 0.9, 
+	"nightEffectors": ["NightOwlPerkEffector"],
+	"nightEffectorsEnd": 0.9, 
+    "seasons": [
+        {
+            "name": "spring",
+            "index": 0,
+            "grassFlammability": 0.55,
+            "caravanTravelDurationMultiplier": 1.8,
+            "unlockAchievementOnEnd": "",
+            "soilTemperature" : 5,
+            "waterTemperature" : 2,
+          "dayTemperatureRange": {
+                "min": 8,
+                "max": 14
+            },
+            "nightTemperatureRange": {
+                "min": 6,
+                "max": 10
+            },
+            "birds": [
+                "ducks_flying_straight",
+                "geese_flying_straight"
+            ],
+			"weatherEvents": [
+                {
+					"weatherEvent": "rain",
+					"chance": 47
+				},
+                {
+					"weatherEvent": "snow",
+					"chance": 27
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 25
+				}
+			],
+            "sunriseHour": 5,
+            "sunsetHour": 19,
+            "sunAngle": 45,
+            "moonAngle": 80,
+            "grassGrowSpeed": 1.4
+        },
+        {
+            "name": "spring2",
+            "index": 1,
+            "grassFlammability": 0.75,
+            "caravanTravelDurationMultiplier": 0.8,
+            "unlockAchievementOnEnd": "",
+            "soilTemperature" : 6,
+            "waterTemperature" : 4,
+          "dayTemperatureRange": {
+                "min": 8,
+                "max": 14
+            },
+            "nightTemperatureRange": {
+                "min": 6,
+                "max": 10
+            },
+            "birds": [
+                "ducks_flying_straight",
+                "geese_flying_straight"
+            ],
+			"weatherEvents": [
+                {
+					"weatherEvent": "rain",
+					"chance": 37
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 15
+				}
+			],
+            "sunriseHour": 5,
+            "sunsetHour": 19,
+            "sunAngle": 35,
+            "moonAngle": 60,
+            "grassGrowSpeed": 1.4
+        },
+        {
+            "name": "summer",
+            "index": 2,
+            "grassFlammability": 1.1,
+            "caravanTravelDurationMultiplier": 0.9,
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_SUMMER",
+            "soilTemperature" : 7,
+            "waterTemperature" : 14,
+          "dayTemperatureRange": {
+                "min": 20,
+                "max": 27
+            },
+            "nightTemperatureRange": {
+                "min": 14,
+                "max": 18
+            },
+            "birds": [
+                "crows_flying_straight",
+                "pigeons_flying_straight",
+                "buzzard_flying_over"
+            ],
+			"weatherEvents": [
+                {
+					"weatherEvent": "rain",
+					"chance": 2
+                },
+                {
+					"weatherEvent": "fog",
+					"chance": 1
+				}
+			],
+            "sunriseHour": 3.8,
+            "sunsetHour": 21,
+            "sunAngle": 75,
+            "moonAngle": 120,
+            "grassGrowSpeed": 0.9
+        },
+        {
+            "name": "summer2",
+            "index": 3,
+            "grassFlammability": 1.1,
+            "caravanTravelDurationMultiplier": 0.9,
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_SUMMER",
+            "soilTemperature" : 7,
+            "waterTemperature" : 14,
+          "dayTemperatureRange": {
+                "min": 20,
+                "max": 27
+            },
+            "nightTemperatureRange": {
+                "min": 14,
+                "max": 18
+            },
+            "birds": [
+                "crows_flying_straight",
+                "pigeons_flying_straight",
+                "buzzard_flying_over"
+            ],
+			"weatherEvents": [
+                {
+					"weatherEvent": "rain",
+					"chance": 2
+                },
+                {
+					"weatherEvent": "fog",
+					"chance": 1
+				}
+			],
+            "sunriseHour": 3.8,
+            "sunsetHour": 21,
+            "sunAngle": 75,
+            "moonAngle": 120,
+            "grassGrowSpeed": 0.9
+        },
+        {
+            "name": "autumn",
+            "index": 4,
+            "grassFlammability": 1.2,
+            "caravanTravelDurationMultiplier": 1.2,
+            "unlockAchievementOnEnd": "",
+            "soilTemperature" : 8,
+            "waterTemperature" : 10,
+            "dayTemperatureRange": {
+                "min": 10,
+                "max": 15
+            },
+            "nightTemperatureRange": {
+                "min": 5,
+                "max": 8
+            },
+            "birds": [
+                "ducks_flying_straight",
+                "geese_flying_straight",
+                "buzzard_flying_over"
+            ],
+			"weatherEvents": [
+				{
+					"weatherEvent": "rain",
+					"chance": 35
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 5
+				}
+			],
+            "sunriseHour": 6.2,
+            "sunsetHour": 17.5,
+            "sunAngle": 45,
+            "moonAngle": 70,
+            "grassGrowSpeed": 0.4
+        },
+        {
+            "name": "autumn2",
+            "index": 5,
+            "grassFlammability": 0.8,
+            "caravanTravelDurationMultiplier": 1.4,
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_AUTUMN",
+            "soilTemperature" : 6,
+            "waterTemperature" : 8,
+            "dayTemperatureRange": {
+                "min": 8,
+                "max": 11
+            },
+            "nightTemperatureRange": {
+                "min": 2,
+                "max": 6
+            },
+            "birds": [
+                "geese_flying_straight",
+                "buzzard_flying_over"
+            ],
+			"weatherEvents": [
+				{
+					"weatherEvent": "rain",
+					"chance": 55
+				},
+                {
+					"weatherEvent": "snow",
+					"chance": 25
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 45
+				}
+			],
+            "sunriseHour": 7.4,
+            "sunsetHour": 16.5,
+            "sunAngle": 45,
+            "moonAngle": 70,
+            "grassGrowSpeed": 0.3
+        },
+        {
+            "name": "winter",
+            "index": 6,
+            "grassFlammability": 0.4,
+            "caravanTravelDurationMultiplier": 2.3,
+            "unlockAchievementOnEnd": "",
+            "soilTemperature" : 2,
+            "waterTemperature" : 1,
+            "dayTemperatureRange": {
+                "min": -4,
+                "max": 1
+            },
+            "nightTemperatureRange": {
+                "min": -10,
+                "max": -16
+            },
+            "birds": [
+                "crows_flying_straight"
+            ],
+			"weatherEvents": [
+				{
+					"weatherEvent": "snow",
+					"chance": 60
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 25
+				},
+                {
+					"weatherEvent": "rain",
+					"chance": 5
+				}
+			],
+            "sunriseHour": 8.2,
+            "sunsetHour": 15.8,
+            "sunAngle": 20,
+            "moonAngle": 130,
+            "grassGrowSpeed": -0.1
+        },
+        {
+            "name": "winter2",
+            "index": 7,
+            "grassFlammability": 0.3,
+            "caravanTravelDurationMultiplier": 3.5,
+            "unlockAchievementOnEnd": "SURVIVE_FIRST_WINTER",
+            "soilTemperature" : -1,
+            "waterTemperature" : 1,
+            "dayTemperatureRange": {
+                "min": -6,
+                "max": -2
+            },
+            "nightTemperatureRange": {
+                "min": -12,
+                "max": -18
+            },
+            "birds": [
+                "crows_flying_straight"
+            ],
+			"weatherEvents": [
+				{
+					"weatherEvent": "snow",
+					"chance": 85
+				},
+				{
+					"weatherEvent": "fog",
+					"chance": 15
+				}
+			],
+            "sunriseHour": 8.2,
+            "sunsetHour": 15.8,
+            "sunAngle": 15,
+            "moonAngle": 130,
+            "grassGrowSpeed": -0.1
+        }
+    ],
+    "maxDays": 4294967294,
+    "startingYearRange": {
+        "min": 1345,
+        "max": 1351
+    },
+    "animalIdlePointRelocateHours": 2,
+    "stockModifiersBySeason": [
+      {
+        "id": "spring",
+        "stockModifiers": [
+          "spring_stock_modifier"
+        ]
+      },
+      {
+        "id": "spring2",
+        "stockModifiers": [
+          "spring_stock_modifier"
+        ]
+      },
+      {
+        "id": "summer",
+        "stockModifiers": [
+          "summer_stock_modifier"
+        ]
+      },
+      {
+        "id": "summer2",
+        "stockModifiers": [
+          "summer_stock_modifier"
+        ]
+      },
+      {
+        "id": "autumn",
+        "stockModifiers": [
+          "autumn_stock_modifier"
+        ]
+      },
+      {
+        "id": "autumn2",
+        "stockModifiers": [
+          "autumn_stock_modifier"
+        ]
+      },
+      {
+        "id": "winter",
+        "stockModifiers": [
+          "winter_stock_modifier"
+        ]
+      },
+      {
+        "id": "winter2",
+        "stockModifiers": [
+          "winter_stock_modifier"
+        ]
+      }
+    ]
+}

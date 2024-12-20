@@ -1,0 +1,2838 @@
+{
+  "repository": [
+    {
+      "id": "deer",
+      "category": "deer",
+      "iconPath": "deer",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_deer",
+          "info": "animal_info_deer"
+        }
+      ],
+      "prefabMale": "deer_male",
+      "prefabFemale": "deer_female",
+      "canMakeDirtPath": true,
+      "thermalModelId": "animal_large",
+      "wealthPoints": 60,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_deer",
+      "dietModelId": "animal_herb_diet_large",
+      "maxCount": 10,
+      "minGridSpace": 4,
+      "slaughterXp": 150,
+      "tameTrySuccessfulXp": 100,
+      "tameTryFailXp": 25,
+      "trainTrySuccessfulXp": 120,
+      "trainTryFailXp": 30,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 15,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 1
+      },
+      "increaseAchievementCountOnDeath": "DEER_HUNT_CNT",
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 0.75,
+        "max": 2
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 10,
+      "lifePhases": [
+        {
+          "phaseName": "deer_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 35,
+            "max": 40
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "deer_carcass",
+          "storageBase": {
+            "capacity": 30
+          },
+          "caravanStorageCapacity": 40,
+          "attributesList": "attributes_deer_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "deer_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 90,
+            "max": 120
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "deer_carcass",
+          "storageBase": {
+            "capacity": 80
+          },
+          "caravanStorageCapacity": 90,
+          "attributesList": "attributes_deer_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 200,
+      "footstepsAudioEvent": "HoofFootsteps",
+      "animalAttackType": 2,
+      "ritualSacrificeQuality": 25
+    },
+    {
+      "id": "hare",
+      "category": "hare",
+      "iconPath": "hare",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_hare",
+          "info": "animal_info_hare"
+        }
+      ],
+      "prefabMale": "hare",
+      "prefabFemale": "hare",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 8,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_hare",
+      "dietModelId": "animal_herb_diet_small",
+      "maxCount": 15,
+      "minGridSpace": 1,
+      "slaughterXp": 35,
+      "tameTrySuccessfulXp": 60,
+      "tameTryFailXp": 15,
+      "trainTrySuccessfulXp": 60,
+      "trainTryFailXp": 15,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 5,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "increaseAchievementCountOnDeath": "RAB_HUNT_CNT",
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 7,
+      "lifePhases": [
+        {
+          "phaseName": "hare_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 15
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "hare_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_hare_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "hare_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 55,
+            "max": 85
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "hare_carcass",
+          "storageBase": {
+            "capacity": 5
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_hare_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_small",
+        "wildAggressive": "animal_small",
+        "domestic": "animal_small_domestic",
+        "domesticNpc": "animal_small_domestic",
+        "pet": "animal_small_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 5,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "ritualSacrificeQuality": 10
+    },
+    {
+      "id": "wolf",
+      "category": "wolf",
+      "iconPath": "wolf",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_wolf",
+          "info": "animal_info_wolf"
+        }
+      ],
+      "prefabMale": "wolf",
+      "prefabFemale": "wolf",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_medium",
+      "wealthPoints": 25,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_wolf",
+      "dietModelId": "animal_meat_diet",
+      "maxCount": 8,
+      "minGridSpace": 2,
+      "slaughterXp": 75,
+      "tameTrySuccessfulXp": 150,
+      "tameTryFailXp": 38,
+      "trainTrySuccessfulXp": 200,
+      "trainTryFailXp": 50,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "canPestControlAsPet": true,
+      "minTameSkill": 15,
+      "tamingDuration": 20,
+      "minTrainSkill": 15,
+      "trainingDuration": 25,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 7,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "increaseAchievementCountOnDeath": "WOL_HUNT_CNT",
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 0.4,
+        "max": 1.7
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 12,
+        "max": 20
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 6,
+      "lifePhases": [
+        {
+          "phaseName": "wolf_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 20
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "wolf_carcass",
+          "storageBase": {
+            "capacity": 25
+          },
+          "caravanStorageCapacity": 30,
+          "attributesList": "attributes_wolf_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "wolf_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 100,
+            "max": 120
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "wolf_carcass",
+          "storageBase": {
+            "capacity": 35
+          },
+          "caravanStorageCapacity": 40,
+          "attributesList": "attributes_wolf_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalWolf"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalWolfHead"
+      ],
+      "maxWeight": 80,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "isPetProtectiveAgainstPredators": true,
+      "ritualSacrificeQuality": 25
+    },
+    {
+      "id": "boar",
+      "category": "boar",
+      "iconPath": "boar",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_boar",
+          "info": "animal_info_boar"
+        }
+      ],
+      "prefabMale": "boar",
+      "prefabFemale": "boar",
+      "canMakeDirtPath": true,
+      "thermalModelId": "animal_medium",
+      "wealthPoints": 70,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_boar",
+      "dietModelId": "animal_herb_diet_large",
+      "maxCount": 8,
+      "minGridSpace": 4,
+      "slaughterXp": 150,
+      "tameTrySuccessfulXp": 100,
+      "tameTryFailXp": 25,
+      "trainTrySuccessfulXp": 120,
+      "trainTryFailXp": 30,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": true,
+      "canPestControlAsPet": false,
+      "minTameSkill": 10,
+      "tamingDuration": 20,
+      "minTrainSkill": 10,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 12,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 1,
+        "max": 2
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 7,
+      "lifePhases": [
+        {
+          "phaseName": "boar_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 20
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "boar_carcass",
+          "storageBase": {
+            "capacity": 40
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_boar_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "boar_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 100,
+            "max": 120
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "boar_carcass",
+          "storageBase": {
+            "capacity": 60
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_boar_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 120,
+      "footstepsAudioEvent": "HoofFootsteps",
+      "animalAttackType": 1,
+      "ritualSacrificeQuality": 40
+    },
+    {
+      "id": "pheasant",
+      "category": "pheasant",
+      "iconPath": "pheasant",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_pheasant",
+          "info": "animal_info_pheasant"
+        }
+      ],
+      "prefabMale": "pheasant_male",
+      "prefabFemale": "pheasant_female",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 4,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_pheasant",
+      "dietModelId": "animal_herb_diet_small",
+      "maxCount": 15,
+      "minGridSpace": 1,
+      "slaughterXp": 35,
+      "tameTrySuccessfulXp": 60,
+      "tameTryFailXp": 15,
+      "trainTrySuccessfulXp": 60,
+      "trainTryFailXp": 15,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 4,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 8,
+      "lifePhases": [
+        {
+          "phaseName": "phesen_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 15
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "pheasant_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_phesent_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "phesen_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 30,
+            "max": 45
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "pheasant_carcass",
+          "storageBase": {
+            "capacity": 5
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_phesent_mature",
+          "productionsFemale": [
+            "egg_phesent_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_small",
+        "wildAggressive": "animal_small",
+        "domestic": "animal_small_domestic",
+        "domesticNpc": "animal_small_domestic",
+        "pet": "animal_small_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 3,
+      "animalAttackType": 3,
+      "ritualSacrificeQuality": 5
+    },
+    {
+      "id": "mallard",
+      "category": "mallard",
+      "iconPath": "mallard",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_mallard",
+          "info": "animal_info_mallard"
+        }
+      ],
+      "prefabMale": "mallard_duck_male",
+      "prefabFemale": "mallard_duck_female",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 4,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_pheasant",
+      "dietModelId": "animal_herb_diet_small",
+      "maxCount": 15,
+      "minGridSpace": 1,
+      "slaughterXp": 35,
+      "tameTrySuccessfulXp": 60,
+      "tameTryFailXp": 15,
+      "trainTrySuccessfulXp": 60,
+      "trainTryFailXp": 15,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 4,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 20,
+      "lifePhases": [
+        {
+          "phaseName": "mallard_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 15
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "mallard_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_phesent_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "mallard_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 30,
+            "max": 45
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "mallard_carcass",
+          "storageBase": {
+            "capacity": 5
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_phesent_mature",
+          "productionsFemale": [
+            "egg_phesent_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_small",
+        "wildAggressive": "animal_small",
+        "domestic": "animal_small_domestic",
+        "domesticNpc": "animal_small_domestic",
+        "pet": "animal_small_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 3,
+      "animalAttackType": 3,
+      "ritualSacrificeQuality": 5
+    },
+    {
+      "id": "fox",
+      "category": "fox",
+      "iconPath": "fox",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_fox",
+          "info": "animal_info_fox"
+        }
+      ],
+      "prefabMale": "fox",
+      "prefabFemale": "fox",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_medium",
+      "wealthPoints": 20,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_fox",
+      "dietModelId": "animal_fox_diet",
+      "maxCount": 10,
+      "minGridSpace": 2,
+      "slaughterXp": 75,
+      "tameTrySuccessfulXp": 100,
+      "tameTryFailXp": 25,
+      "trainTrySuccessfulXp": 100,
+      "trainTryFailXp": 25,
+      "canBeTamed": true,
+      "canBeInPen": false,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": true,
+      "minTameSkill": 10,
+      "tamingDuration": 20,
+      "minTrainSkill": 10,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 9,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 0.8,
+      "pestControlEndEffectorDuration": {
+        "min": 7,
+        "max": 12
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 6,
+      "lifePhases": [
+        {
+          "phaseName": "fox_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 20
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "fox_carcass",
+          "storageBase": {
+            "capacity": 10
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_fox_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "fox_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 60,
+            "max": 120
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "fox_carcass",
+          "storageBase": {
+            "capacity": 15
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_fox_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_fox",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_pet",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_night",
+        "wildAggressive": "animal_night",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wild": "WildFoxEffector",
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 30,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "isPetProtectiveAgainstPredators": true,
+      "ritualSacrificeQuality": 25
+    },
+    {
+      "id": "rat",
+      "category": "rat",
+      "iconPath": "rat",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_rat",
+          "info": "animal_info_rat"
+        }
+      ],
+      "prefabMale": "rat",
+      "prefabFemale": "rat",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 0.7,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_rat",
+      "dietModelId": "animal_diet_rat",
+      "maxCount": 15,
+      "minGridSpace": 1,
+      "slaughterXp": 10,
+      "tameTrySuccessfulXp": 60,
+      "tameTryFailXp": 15,
+      "trainTrySuccessfulXp": 60,
+      "trainTryFailXp": 15,
+      "canBeTamed": true,
+      "canBeInPen": false,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 3,
+      "chanceForPregnancy": 0.02,
+      "offspringRange": {
+        "min": 1,
+        "max": 1
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 5,
+      "lifePhases": [
+        {
+          "phaseName": "rat_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 6,
+            "max": 10
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "rat_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_rat_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "rat_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 30,
+            "max": 45
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "rat_carcass",
+          "storageBase": {
+            "capacity": 4
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_rat_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_cat_polecat_rat",
+        "wildAggressive": "animal_cat_polecat_rat",
+        "domestic": "animal_cat_polecat_rat_pet",
+        "domesticNpc": "animal_cat_polecat_rat_pet",
+        "pet": "animal_cat_polecat_rat_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 0.5,
+      "animalAttackType": 1,
+      "ritualSacrificeQuality": -10
+    },
+    {
+      "id": "water_vole",
+      "category": "water_vole",
+      "iconPath": "water_vole",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_water_vole",
+          "info": "animal_info_water_vole"
+        }
+      ],
+      "prefabMale": "water_vole",
+      "prefabFemale": "water_vole",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 2,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_rat",
+      "dietModelId": "animal_herb_diet_small",
+      "maxCount": 15,
+      "minGridSpace": 1,
+      "slaughterXp": 10,
+      "tameTrySuccessfulXp": 60,
+      "tameTryFailXp": 15,
+      "trainTrySuccessfulXp": 60,
+      "trainTryFailXp": 15,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 3,
+      "chanceForPregnancy": 0.02,
+      "offspringRange": {
+        "min": 1,
+        "max": 1
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 4,
+      "lifePhases": [
+        {
+          "phaseName": "water_vole_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 6,
+            "max": 10
+          },
+          "scaleStart": 0.7,
+          "scaleEnd": 1.2,
+          "carcassResourceId": "water_vole_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_rat_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "water_vole_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 30,
+            "max": 45
+          },
+          "scaleStart": 1.2,
+          "scaleEnd": 1.2,
+          "carcassResourceId": "water_vole_carcass",
+          "storageBase": {
+            "capacity": 4
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_rat_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_small",
+        "wildAggressive": "animal_small",
+        "domestic": "animal_small_domestic",
+        "domesticNpc": "animal_small_domestic",
+        "pet": "animal_small_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 0.5,
+      "animalAttackType": 1,
+      "ritualSacrificeQuality": 1
+    },
+    {
+      "id": "polecat",
+      "category": "polecat",
+      "iconPath": "polecat",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_polecat",
+          "info": "animal_info_polecat"
+        }
+      ],
+      "prefabMale": "polecat",
+      "prefabFemale": "polecat",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 10,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_polecat",
+      "dietModelId": "animal_cat_diet",
+      "maxCount": 10,
+      "minGridSpace": 1,
+      "slaughterXp": 35,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": false,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": true,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 4,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 0.8,
+      "pestControlEndEffectorDuration": {
+        "min": 5,
+        "max": 12
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 4,
+      "lifePhases": [
+        {
+          "phaseName": "polecat_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 3,
+            "max": 5
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "polecat_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_polecat_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "polecat_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 45,
+            "max": 90
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "polecat_carcass",
+          "storageBase": {
+            "capacity": 3
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_polecat_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_cat_polecat_rat",
+        "wildAggressive": "animal_cat_polecat_rat",
+        "domestic": "animal_cat_polecat_rat_pet",
+        "domesticNpc": "animal_cat_polecat_rat_pet",
+        "pet": "animal_cat_polecat_rat_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_night",
+        "wildAggressive": "animal_night",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wild": "WildFoxEffector",
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 2,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "ritualSacrificeQuality": 10
+    },
+    {
+      "id": "cow",
+      "category": "cow",
+      "iconPath": "cow",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_cow",
+          "info": "animal_info_cow"
+        }
+      ],
+      "prefabMale": "cow_male",
+      "prefabFemale": "cow_female",
+      "canMakeDirtPath": true,
+      "thermalModelId": "animal_large",
+      "wealthPoints": 100,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_cow",
+      "dietModelId": "animal_herb_diet_large",
+      "maxCount": 12,
+      "minGridSpace": 4,
+      "slaughterXp": 150,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 15,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 17,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 1
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 2,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 1,
+        "max": 1
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 6,
+      "lifePhases": [
+        {
+          "phaseName": "cow_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 35,
+            "max": 40
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "cow_carcass",
+          "storageBase": {
+            "capacity": 60
+          },
+          "caravanStorageCapacity": 70,
+          "attributesList": "attributes_cow_young",
+          "productionsMale": [
+            "dung_med_production"
+          ],
+          "productionsFemale": [
+            "dung_med_production"
+          ],
+          "canBreed": false
+        },
+        {
+          "phaseName": "cow_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 120,
+            "max": 180
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "cow_carcass",
+          "storageBase": {
+            "capacity": 120
+          },
+          "caravanStorageCapacity": 130,
+          "attributesList": "attributes_cow_mature",
+          "productionsMale": [
+            "dung_large_production"
+          ],
+          "productionsFemale": [
+            "milk_cow_production",
+            "dung_large_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 500,
+      "footstepsAudioEvent": "HoofFootsteps",
+      "animalAttackType": 2,
+      "ritualSacrificeQuality": 30
+    },
+    {
+      "id": "goat",
+      "category": "goat",
+      "iconPath": "goat",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_goat",
+          "info": "animal_info_goat"
+        }
+      ],
+      "prefabMale": "goat_male",
+      "prefabFemale": "goat_female",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_medium",
+      "wealthPoints": 50,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_goat",
+      "dietModelId": "animal_herb_diet_large",
+      "maxCount": 12,
+      "minGridSpace": 2,
+      "slaughterXp": 75,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 8,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 0.9,
+      "haulEndEffectorDuration": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 1,
+        "max": 1
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 4,
+      "lifePhases": [
+        {
+          "phaseName": "goat_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 20
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "goat_carcass",
+          "storageBase": {
+            "capacity": 25
+          },
+          "caravanStorageCapacity": 30,
+          "attributesList": "attributes_goat_young",
+          "productionsMale": [
+            "dung_small_production"
+          ],
+          "productionsFemale": [
+            "dung_small_production"
+          ],
+          "canBreed": false
+        },
+        {
+          "phaseName": "goat_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 100,
+            "max": 150
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "goat_carcass",
+          "storageBase": {
+            "capacity": 45
+          },
+          "caravanStorageCapacity": 50,
+          "attributesList": "attributes_goat_mature",
+          "productionsMale": [
+            "dung_med_production"
+          ],
+          "productionsFemale": [
+            "milk_goat_production",
+            "dung_med_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 40,
+      "footstepsAudioEvent": "HoofFootsteps",
+      "animalAttackType": 2,
+      "ritualSacrificeQuality": 10
+    },
+    {
+      "id": "sheep",
+      "category": "sheep",
+      "iconPath": "sheep",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_sheep",
+          "info": "animal_info_sheep"
+        }
+      ],
+      "prefabMale": "sheep_male",
+      "prefabFemale": "sheep_female",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_medium",
+      "wealthPoints": 50,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_sheep",
+      "dietModelId": "animal_herb_diet_large",
+      "maxCount": 12,
+      "minGridSpace": 2,
+      "slaughterXp": 75,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 8,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 1,
+        "max": 1
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 2,
+      "lifePhases": [
+        {
+          "phaseName": "sheep_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 20
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "sheep_carcass",
+          "storageBase": {
+            "capacity": 25
+          },
+          "caravanStorageCapacity": 30,
+          "attributesList": "attributes_sheep_young",
+          "productionsMale": [
+            "wool_production",
+            "dung_small_production"
+          ],
+          "productionsFemale": [
+            "wool_production",
+            "dung_small_production"
+          ],
+          "canBreed": false
+        },
+        {
+          "phaseName": "sheep_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 120,
+            "max": 170
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "sheep_carcass",
+          "storageBase": {
+            "capacity": 45
+          },
+          "caravanStorageCapacity": 50,
+          "attributesList": "attributes_sheep_mature",
+          "productionsMale": [
+            "wool_production",
+            "dung_med_production"
+          ],
+          "productionsFemale": [
+            "milk_sheep_production",
+            "wool_production",
+            "dung_med_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 60,
+      "footstepsAudioEvent": "HoofFootsteps",
+      "animalAttackType": 2,
+      "ritualSacrificeQuality": 10
+    },
+    {
+      "id": "donkey",
+      "category": "donkey",
+      "iconPath": "donkey",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_donkey",
+          "info": "animal_info_donkey"
+        }
+      ],
+      "prefabMale": "donkey",
+      "prefabFemale": "donkey",
+      "canMakeDirtPath": true,
+      "thermalModelId": "animal_large",
+      "wealthPoints": 70,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_donkey",
+      "dietModelId": "animal_herb_diet_large",
+      "maxCount": 10,
+      "minGridSpace": 4,
+      "slaughterXp": 120,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 20,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 1
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 0.9,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2.5
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 1,
+        "max": 1
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 7,
+      "lifePhases": [
+        {
+          "phaseName": "donkey_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 20,
+            "max": 25
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "donkey_carcass",
+          "storageBase": {
+            "capacity": 90
+          },
+          "caravanStorageCapacity": 100,
+          "attributesList": "attributes_donkey_young",
+          "productionsMale": [
+            "dung_small_production"
+          ],
+          "productionsFemale": [
+            "dung_small_production"
+          ],
+          "canBreed": false
+        },
+        {
+          "phaseName": "donkey_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 60,
+            "max": 120
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "donkey_carcass",
+          "storageBase": {
+            "capacity": 160
+          },
+          "caravanStorageCapacity": 180,
+          "attributesList": "attributes_donkey_mature",
+          "productionsMale": [
+            "dung_med_production"
+          ],
+          "productionsFemale": [
+            "dung_med_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 150,
+      "footstepsAudioEvent": "HoofFootsteps",
+      "animalAttackType": 2,
+      "ritualSacrificeQuality": 25
+    },
+    {
+      "id": "chicken",
+      "category": "chicken",
+      "iconPath": "chicken",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_chicken",
+          "info": "animal_info_chicken"
+        }
+      ],
+      "prefabMale": "chicken_male",
+      "prefabFemale": "chicken_female",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 5,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_chicken",
+      "dietModelId": "animal_herb_diet_small",
+      "maxCount": 15,
+      "minGridSpace": 1,
+      "slaughterXp": 35,
+      "tameTrySuccessfulXp": 45,
+      "tameTryFailXp": 11,
+      "trainTrySuccessfulXp": 45,
+      "trainTryFailXp": 11,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": false,
+      "minTameSkill": 0,
+      "tamingDuration": 20,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 4,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 1,
+        "max": 1
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 4,
+      "lifePhases": [
+        {
+          "phaseName": "chicken_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 8,
+            "max": 12
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "chicken_carcass",
+          "storageBase": {
+            "capacity": 2
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_chicken_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "chicken_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 30,
+            "max": 45
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "chicken_carcass",
+          "storageBase": {
+            "capacity": 4
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_chicken_mature",
+          "productionsFemale": [
+            "egg_chicken_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_small",
+        "wildAggressive": "animal_small",
+        "domestic": "animal_small_domestic",
+        "domesticNpc": "animal_small_domestic",
+        "pet": "animal_small_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 2,
+      "animalAttackType": 3,
+      "ritualSacrificeQuality": 5
+    },
+    {
+      "id": "cat",
+      "category": "cat",
+      "iconPath": "cat",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_cat",
+          "info": "animal_info_cat"
+        }
+      ],
+      "prefabMale": "cat",
+      "prefabFemale": "cat",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_small",
+      "wealthPoints": 12,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_cat",
+      "dietModelId": "animal_cat_diet",
+      "maxCount": 10,
+      "minGridSpace": 1,
+      "slaughterXp": 50,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": false,
+      "canBeTrained": true,
+      "canHaulAsPet": false,
+      "canAttackAsPet": false,
+      "canPestControlAsPet": true,
+      "minTameSkill": 0,
+      "tamingDuration": 15,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 6,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 3,
+        "max": 4
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 0.7,
+      "pestControlEndEffectorDuration": {
+        "min": 8,
+        "max": 15
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 5,
+      "lifePhases": [
+        {
+          "phaseName": "cat_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 10,
+            "max": 12
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "cat_carcass",
+          "storageBase": {
+            "capacity": 3
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_cat_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "cat_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 190,
+            "max": 220
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "cat_carcass",
+          "storageBase": {
+            "capacity": 5
+          },
+          "caravanStorageCapacity": 0,
+          "attributesList": "attributes_cat_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_cat_polecat_rat",
+        "wildAggressive": "animal_cat_polecat_rat",
+        "domestic": "animal_cat_polecat_rat_pet",
+        "domesticNpc": "animal_cat_polecat_rat_pet",
+        "pet": "animal_cat_polecat_rat_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 5,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "ritualSacrificeQuality": -10
+    },
+    {
+      "id": "dog",
+      "category": "dog",
+      "iconPath": "dog",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_dog",
+          "info": "animal_info_dog"
+        }
+      ],
+      "prefabMale": "dog",
+      "prefabFemale": "dog",
+      "canMakeDirtPath": false,
+      "thermalModelId": "animal_medium",
+      "wealthPoints": 35,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_dog",
+      "dietModelId": "animal_meat_diet",
+      "maxCount": 10,
+      "minGridSpace": 2,
+      "slaughterXp": 75,
+      "tameTrySuccessfulXp": 80,
+      "tameTryFailXp": 20,
+      "trainTrySuccessfulXp": 80,
+      "trainTryFailXp": 20,
+      "canBeTamed": true,
+      "canBeInPen": false,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "canPestControlAsPet": true,
+      "minTameSkill": 0,
+      "tamingDuration": 15,
+      "minTrainSkill": 0,
+      "trainingDuration": 10,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 7,
+      "chanceForPregnancy": 0.1,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 0.8,
+      "haulEndEffectorDuration": {
+        "min": 0.2,
+        "max": 0.45
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 12,
+        "max": 18
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 4,
+      "lifePhases": [
+        {
+          "phaseName": "dog_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 25,
+            "max": 35
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "dog_carcass",
+          "storageBase": {
+            "capacity": 25
+          },
+          "caravanStorageCapacity": 30,
+          "attributesList": "attributes_dog_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "dog_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 220,
+            "max": 300
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "dog_carcass",
+          "storageBase": {
+            "capacity": 45
+          },
+          "caravanStorageCapacity": 50,
+          "attributesList": "attributes_dog_mature",
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_small",
+        "wildAggressive": "animal_small",
+        "domestic": "animal_small_pet",
+        "domesticNpc": "animal_small_domestic",
+        "pet": "animal_small_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalDeer"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalDeerHead"
+      ],
+      "maxWeight": 40,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "isPetProtectiveAgainstPredators": true,
+      "ritualSacrificeQuality": -10
+    },
+    {
+      "id": "bear",
+      "category": "bear",
+      "iconPath": "bear",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_bear",
+          "info": "animal_info_bear"
+        }
+      ],
+      "prefabMale": "bear",
+      "prefabFemale": "bear",
+      "canMakeDirtPath": true,
+      "thermalModelId": "animal_large",
+      "wealthPoints": 200,
+      "price": 30,
+      "priceThreshold": 1,
+      "statsModelId": "animal_bear",
+      "dietModelId": "animal_bear_diet",
+      "maxCount": 3,
+      "minGridSpace": 20,
+      "slaughterXp": 200,
+      "tameTrySuccessfulXp": 600,
+      "tameTryFailXp": 150,
+      "trainTrySuccessfulXp": 800,
+      "trainTryFailXp": 45,
+      "canBeTamed": true,
+      "canBeInPen": true,
+      "canBeTrained": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "canPestControlAsPet": false,
+      "minTameSkill": 30,
+      "tamingDuration": 40,
+      "minTrainSkill": 30,
+      "trainingDuration": 25,
+      "stopPregnancyEffector": "StopPregnancy",
+      "pregnancyDuration": 10,
+      "chanceForPregnancy": 0.2,
+      "offspringRange": {
+        "min": 1,
+        "max": 2
+      },
+      "haulEndEffectorName": "PetDisableHaulGoal",
+      "fireHaulEndEffectorChance": 1,
+      "haulEndEffectorDuration": {
+        "min": 1,
+        "max": 3
+      },
+      "pestControlEndEffectorName": "AnimalDisablePestControlGoal",
+      "firePestControlEndEffectorChance": 1,
+      "pestControlEndEffectorDuration": {
+        "min": 1,
+        "max": 1
+      },
+      "scaredEffector": "AnimalScaredDontSleep",
+      "scaredEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      },
+      "flameSpawnInterval": 8,
+      "lifePhases": [
+        {
+          "phaseName": "bear_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 40,
+            "max": 45
+          },
+          "scaleStart": 0.6,
+          "scaleEnd": 1,
+          "carcassResourceId": "bear_carcass",
+          "storageBase": {
+            "capacity": 65
+          },
+          "caravanStorageCapacity": 70,
+          "attributesList": "attributes_bear_young",
+          "productionsMale": [
+            "dung_small_production"
+          ],
+          "productionsFemale": [
+            "dung_small_production"
+          ],
+          "canBreed": false
+        },
+        {
+          "phaseName": "bear_mature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_mature"
+            }
+          ],
+          "durationDays": {
+            "min": 220,
+            "max": 300
+          },
+          "scaleStart": 1,
+          "scaleEnd": 1,
+          "carcassResourceId": "bear_carcass",
+          "storageBase": {
+            "capacity": 90
+          },
+          "caravanStorageCapacity": 100,
+          "attributesList": "attributes_bear_mature",
+          "productionsMale": [
+            "dung_med_production"
+          ],
+          "productionsFemale": [
+            "dung_med_production"
+          ],
+          "canBreed": true
+        }
+      ],
+      "walkableModelBlueprints": {
+        "wild": "animal_large",
+        "wildAggressive": "animal_large",
+        "domestic": "animal_large_domestic",
+        "domesticNpc": "animal_large_domestic",
+        "pet": "animal_large_pet"
+      },
+      "combatAiBlueprints": {
+        "wild": "AnimalPeaceful",
+        "wildAggressive": "AnimalRaidAggressive",
+        "domestic": "AnimalPeaceful",
+        "domesticNpc": "AnimalPeaceful",
+        "pet": "AnimalPeaceful"
+      },
+      "scheduleModelBlueprints": {
+        "wild": "animal_wild",
+        "wildAggressive": "animal_wild_aggresive",
+        "domestic": "animal_domestic",
+        "domesticNpc": "animal_domestic",
+        "pet": "animal_pet"
+      },
+      "scheduleConfigBlueprints": {
+        "wild": "animal_basic",
+        "wildAggressive": "animal_basic",
+        "domestic": "animal_basic",
+        "domesticNpc": "animal_merchant",
+        "pet": "animal_basic"
+      },
+      "effectorsByAnimalType": {
+        "wildAggressive": "AnimalWildAggressiveEffector",
+        "domestic": "AnimalDomesticEffector",
+        "domesticNpc": "AnimalDomesticEffector",
+        "pet": "AnimalPetEffector"
+      },
+      "hitEffectorGroupIDs": [
+        "WoundsAnimalWolf"
+      ],
+      "criticalHitEffectorGroupIDs": [
+        "WoundsAnimalWolfHead"
+      ],
+      "maxWeight": 350,
+      "footstepsAudioEvent": "PawFootsteps",
+      "animalAttackType": 1,
+      "isPetProtectiveAgainstPredators": true,
+      "ritualSacrificeQuality": 80
+    }
+  ]
+}
