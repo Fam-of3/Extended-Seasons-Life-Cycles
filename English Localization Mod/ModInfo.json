@@ -1,0 +1,11 @@
+{
+    "id": "darkness_of_fam.english_localization_mod",
+    "name": "English Localization Mod",
+    "description": "Add some description here...",
+    "author": "Darkness of Fam",
+    "modVersion": "0.1.1",
+    "gameVersion": "0.22.12",
+    "tags": [
+        "Localization"
+    ]
+}
