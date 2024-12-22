@@ -1,6 +1,6 @@
 # Extended Seasons Life Cycles
 ## A MOD_ification to the game _"Going Medevial"_.
- You can read more about the game via [FoxyVoxelStudio: Going Medieval](https://foxyvoxel.io/games/going-medieval/)
+ You can read more about the game via [FoxyVoxel: Going Medieval](https://foxyvoxel.io/games/going-medieval/)
 
 ### **This is mod _Not_ ready for use at the moment.**
 ### Very much the begining works of the mod.
