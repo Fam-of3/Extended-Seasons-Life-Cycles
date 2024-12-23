@@ -1,7 +1,7 @@
 {
-    "daysInSeason": 8,
+    "daysInSeason": 18,
     "hoursInDay": 24,
-    "minutesInHour": 48,
+    "minutesInHour": 36,
     "statsUpdatePerHour": 4,
     "goalsUpdatePerHour": 4,
 	"dayEffectors": ["SunSeekerDayPerkEffector"],
