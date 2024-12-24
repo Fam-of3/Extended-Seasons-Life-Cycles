@@ -73,8 +73,8 @@
             }
           ],
           "durationDays": {
-            "min": 35,
-            "max": 40
+            "min": 15,
+            "max": 18
           },
           "scaleStart": 0.4,
           "scaleEnd": 0.6,
