@@ -65,7 +65,7 @@
       "flameSpawnInterval": 10,
       "lifePhases": [
         {
-          "phaseName": "deer_young",
+          "phaseName": "deer_fawn",
           "locKeys": [
             {
               "languageName": "English",
@@ -76,8 +76,30 @@
             "min": 35,
             "max": 40
           },
+          "scaleStart": 0.4,
+          "scaleEnd": 0.6,
+          "carcassResourceId": "deer_carcass",
+          "storageBase": {
+            "capacity": 15
+          },
+          "caravanStorageCapacity": 15,
+          "attributesList": "attributes_deer_young",
+          "canBreed": false
+        },
+        {
+          "phaseName": "deer_young",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "durationDays": {
+            "min": 45,
+            "max": 60
+          },
           "scaleStart": 0.6,
-          "scaleEnd": 1,
+          "scaleEnd": 0.9,
           "carcassResourceId": "deer_carcass",
           "storageBase": {
             "capacity": 30
@@ -98,8 +120,8 @@
             "min": 90,
             "max": 120
           },
-          "scaleStart": 1,
-          "scaleEnd": 1,
+          "scaleStart": 0.9,
+          "scaleEnd": 1.1,
           "carcassResourceId": "deer_carcass",
           "storageBase": {
             "capacity": 80
@@ -227,8 +249,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 15
+            "min": 15,
+            "max": 18
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -249,8 +271,8 @@
             }
           ],
           "durationDays": {
-            "min": 55,
-            "max": 85
+            "min": 85,
+            "max": 135
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -381,8 +403,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 20
+            "min": 14,
+            "max": 18
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -403,8 +425,8 @@
             }
           ],
           "durationDays": {
-            "min": 100,
-            "max": 120
+            "min": 165,
+            "max": 336
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -535,8 +557,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 20
+            "min": 24,
+            "max": 28
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -557,8 +579,8 @@
             }
           ],
           "durationDays": {
-            "min": 100,
-            "max": 120
+            "min": 165,
+            "max": 384
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -688,7 +710,7 @@
             }
           ],
           "durationDays": {
-            "min": 10,
+            "min": 12,
             "max": 15
           },
           "scaleStart": 0.6,
@@ -710,8 +732,8 @@
             }
           ],
           "durationDays": {
-            "min": 30,
-            "max": 45
+            "min": 96,
+            "max": 135
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -865,8 +887,8 @@
             }
           ],
           "durationDays": {
-            "min": 30,
-            "max": 45
+            "min": 96,
+            "max": 135
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -998,8 +1020,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 20
+            "min": 18,
+            "max": 22
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -1020,8 +1042,8 @@
             }
           ],
           "durationDays": {
-            "min": 60,
-            "max": 120
+            "min": 96,
+            "max": 225
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -1175,8 +1197,8 @@
             }
           ],
           "durationDays": {
-            "min": 30,
-            "max": 45
+            "min": 75,
+            "max": 99
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -1305,8 +1327,8 @@
             }
           ],
           "durationDays": {
-            "min": 6,
-            "max": 10
+            "min": 16,
+            "max": 20
           },
           "scaleStart": 0.7,
           "scaleEnd": 1.2,
@@ -1327,8 +1349,8 @@
             }
           ],
           "durationDays": {
-            "min": 30,
-            "max": 45
+            "min": 78,
+            "max": 96
           },
           "scaleStart": 1.2,
           "scaleEnd": 1.2,
@@ -1457,8 +1479,8 @@
             }
           ],
           "durationDays": {
-            "min": 3,
-            "max": 5
+            "min": 13,
+            "max": 15
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -1479,8 +1501,8 @@
             }
           ],
           "durationDays": {
-            "min": 45,
-            "max": 90
+            "min": 78,
+            "max": 99
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -1611,8 +1633,8 @@
             }
           ],
           "durationDays": {
-            "min": 35,
-            "max": 40
+            "min": 40,
+            "max": 48
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -1639,8 +1661,8 @@
             }
           ],
           "durationDays": {
-            "min": 120,
-            "max": 180
+            "min": 325,
+            "max": 528
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -1777,8 +1799,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 20
+            "min": 28,
+            "max": 41
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -1805,8 +1827,8 @@
             }
           ],
           "durationDays": {
-            "min": 100,
-            "max": 150
+            "min": 144,
+            "max": 410
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -1943,8 +1965,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 20
+            "min": 28,
+            "max": 41
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -1973,8 +1995,8 @@
             }
           ],
           "durationDays": {
-            "min": 120,
-            "max": 170
+            "min": 144,
+            "max": 410
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -2113,8 +2135,8 @@
             }
           ],
           "durationDays": {
-            "min": 20,
-            "max": 25
+            "min": 28,
+            "max": 40
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -2141,8 +2163,8 @@
             }
           ],
           "durationDays": {
-            "min": 60,
-            "max": 120
+            "min": 120,
+            "max": 385
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -2278,8 +2300,8 @@
             }
           ],
           "durationDays": {
-            "min": 8,
-            "max": 12
+            "min": 12,
+            "max": 16
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -2300,8 +2322,8 @@
             }
           ],
           "durationDays": {
-            "min": 30,
-            "max": 45
+            "min": 96,
+            "max": 184
           },
           "scaleStart": 1,
           "scaleEnd": 1,
@@ -2433,8 +2455,8 @@
             }
           ],
           "durationDays": {
-            "min": 10,
-            "max": 12
+            "min": 20,
+            "max": 24
           },
           "scaleStart": 0.6,
           "scaleEnd": 1,
@@ -2768,8 +2790,8 @@
             }
           ],
           "durationDays": {
-            "min": 220,
-            "max": 300
+            "min": 320,
+            "max": 445
           },
           "scaleStart": 1,
           "scaleEnd": 1,

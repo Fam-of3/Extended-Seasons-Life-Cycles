@@ -11,9 +11,9 @@
       "productId": "milk",
       "autoSpawn": false,
       "harvestAnimationId": "Milking",
-      "productionDuration": 1900,
+      "productionDuration": 2100,
       "harvestDuration": 20,
-      "amountToSpawn": 7,
+      "amountToSpawn": 8,
       "harvestXp": 50
     },
     {
@@ -27,9 +27,9 @@
       "productId": "milk",
       "autoSpawn": false,
       "harvestAnimationId": "Milking",
-      "productionDuration": 1600,
+      "productionDuration": 2000,
       "harvestDuration": 15,
-      "amountToSpawn": 3,
+      "amountToSpawn": 4,
       "harvestXp": 50
     },
     {
@@ -43,9 +43,9 @@
       "productId": "milk",
       "autoSpawn": false,
       "harvestAnimationId": "Milking",
-      "productionDuration": 1500,
+      "productionDuration": 1900,
       "harvestDuration": 15,
-      "amountToSpawn": 2,
+      "amountToSpawn": 3,
       "harvestXp": 50
     },
     {
@@ -59,7 +59,7 @@
       "productId": "egg_chicken",
       "autoSpawn": true,
       "harvestAnimationId": "",
-      "productionDuration": 1400,
+      "productionDuration": 2100,
       "harvestDuration": 1,
       "amountToSpawn": 1,
       "harvestXp": 1
@@ -75,7 +75,7 @@
       "productId": "dung",
       "autoSpawn": true,
       "harvestAnimationId": "",
-      "productionDuration": 4500,
+      "productionDuration": 1900,
       "harvestDuration": 1,
       "amountToSpawn": 1,
       "harvestXp": 1
@@ -91,9 +91,9 @@
       "productId": "dung",
       "autoSpawn": true,
       "harvestAnimationId": "",
-      "productionDuration": 1800,
+      "productionDuration": 2100,
       "harvestDuration": 1,
-      "amountToSpawn": 1,
+      "amountToSpawn": 2,
       "harvestXp": 1
     },
     {
@@ -107,7 +107,7 @@
       "productId": "dung",
       "autoSpawn": true,
       "harvestAnimationId": "",
-      "productionDuration": 1600,
+      "productionDuration": 2400,
       "harvestDuration": 1,
       "amountToSpawn": 5,
       "harvestXp": 1
