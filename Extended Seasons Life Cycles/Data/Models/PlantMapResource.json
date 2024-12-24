@@ -93,7 +93,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -146,7 +146,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 80,
           "resourcesRange": [
             {
@@ -200,7 +200,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 160,
           "resourcesRange": [
             {
@@ -254,7 +254,7 @@
               }
             ]
           },
-          "durationDays": 267,
+          "durationDays": 167,
           "baseHealth": 200,
           "resourcesRange": [
             {
@@ -309,7 +309,7 @@
               }
             ]
           },
-          "durationDays": 68,
+          "durationDays": 12,
           "baseHealth": 100,
           "resourcesRange": [
             {
@@ -364,7 +364,7 @@
               }
             ]
           },
-          "durationDays": 36,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -494,7 +494,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -547,7 +547,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 80,
           "resourcesRange": [
             {
@@ -601,7 +601,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 160,
           "resourcesRange": [
             {
@@ -655,7 +655,7 @@
               }
             ]
           },
-          "durationDays": 285,
+          "durationDays": 185,
           "baseHealth": 200,
           "resourcesRange": [
             {
@@ -710,7 +710,7 @@
               }
             ]
           },
-          "durationDays": 68,
+          "durationDays": 12,
           "baseHealth": 100,
           "resourcesRange": [
             {
@@ -765,7 +765,7 @@
               }
             ]
           },
-          "durationDays": 36,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -895,7 +895,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -948,7 +948,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 80,
           "resourcesRange": [
             {
@@ -1002,7 +1002,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 160,
           "resourcesRange": [
             {
@@ -1056,7 +1056,7 @@
               }
             ]
           },
-          "durationDays": 324,
+          "durationDays": 124,
           "baseHealth": 200,
           "resourcesRange": [
             {
@@ -1111,7 +1111,7 @@
               }
             ]
           },
-          "durationDays": 36,
+          "durationDays": 12,
           "baseHealth": 100,
           "resourcesRange": [
             {
@@ -1166,7 +1166,7 @@
               }
             ]
           },
-          "durationDays": 28,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -1294,7 +1294,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -1347,7 +1347,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 80,
           "resourcesRange": [
             {
@@ -1401,7 +1401,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 160,
           "resourcesRange": [
             {
@@ -1455,7 +1455,7 @@
               }
             ]
           },
-          "durationDays": 285,
+          "durationDays": 185,
           "baseHealth": 200,
           "resourcesRange": [
             {
@@ -1510,7 +1510,7 @@
               }
             ]
           },
-          "durationDays": 68,
+          "durationDays": 12,
           "baseHealth": 100,
           "resourcesRange": [
             {
@@ -1565,7 +1565,7 @@
               }
             ]
           },
-          "durationDays": 32,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -1695,7 +1695,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -1748,7 +1748,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 80,
           "resourcesRange": [
             {
@@ -1802,7 +1802,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 160,
           "resourcesRange": [
             {
@@ -1856,7 +1856,7 @@
               }
             ]
           },
-          "durationDays": 236,
+          "durationDays": 136,
           "baseHealth": 200,
           "resourcesRange": [
             {
@@ -1911,7 +1911,7 @@
               }
             ]
           },
-          "durationDays": 88,
+          "durationDays": 12,
           "baseHealth": 100,
           "resourcesRange": [
             {
@@ -1966,7 +1966,7 @@
               }
             ]
           },
-          "durationDays": 28,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -2111,7 +2111,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 40,
           "resourcesRange": [
             {
@@ -2576,7 +2576,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 120,
           "resourcesRange": [
             {
@@ -2643,7 +2643,7 @@
               }
             ]
           },
-          "durationDays": 10,
+          "durationDays": 12,
           "baseHealth": 90,
           "resourcesRange": [
             {
@@ -2828,7 +2828,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 30,
           "resourcesRange": [
             {
@@ -2863,7 +2863,7 @@
               }
             ]
           },
-          "durationDays": 20,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -2997,7 +2997,7 @@
               }
             ]
           },
-          "durationDays": 18,
+          "durationDays": 12,
           "baseHealth": 30,
           "resourcesRange": [
             {
@@ -3032,7 +3032,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 50,
           "resourcesRange": [
             {
@@ -3178,7 +3178,7 @@
               }
             ]
           },
-          "durationDays": 24,
+          "durationDays": 12,
           "baseHealth": 25,
           "resourcesRange": [
             {

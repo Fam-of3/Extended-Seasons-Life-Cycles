@@ -191,7 +191,7 @@
               "locKeys": [
                 {
                   "languageName": "English",
-                  "name": "[PH] Jump to Location"
+                  "name": "general_jump_to_location"
                 }
               ]
             }
@@ -1499,7 +1499,7 @@
               "locKeys": [
                 {
                   "languageName": "English",
-                  "name": "[PH] Jump to Location"
+                  "name": "general_jump_to_location"
                 }
               ]
             }
