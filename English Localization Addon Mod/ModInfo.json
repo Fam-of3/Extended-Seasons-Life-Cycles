@@ -1,0 +1,11 @@
+{
+    "id": "darkness_of_fam.english_localization_addon_mod",
+    "name": "English Localization Addon Mod",
+    "description": "Adds English text addons for Life Cycles Mod",
+    "author": "Darkness of Fam",
+    "modVersion": "0.1.2",
+    "gameVersion": "0.22.12",
+    "tags": [
+        "Localization"
+    ]
+}
